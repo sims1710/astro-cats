@@ -47,7 +47,7 @@ In **Cat in Space**, you control a cat who travels through space collecting obje
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/yourusername/cat-in-space.git
+   git clone https://github.com/sims1710/astro-cats.git
 
 2. **Open the Project in Unity:**
 - Launch **Unity Hub**.
