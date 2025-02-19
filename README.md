@@ -3,50 +3,52 @@
 
 Astro Cats is a fun and fast-paced 2D Unity game where a daring cat roams through the cosmos collecting objects, dodging hazards, and now—traveling between dimensions! Help our furry astronaut score big by collecting valuable items, upgrading doughnuts, and battling space enemies.
 
-## Table of Contents
-- [Overview](#overview)
-- [Gameplay](#gameplay)
-- [Scoring & Lives](#scoring--lives)
-- [Controls](#controls)
-- [Installation & Running](#installation--running)
+## **Table of Contents**  
+- [Gameplay](#gameplay)  
+- [Scoring & Lives](#scoring--lives)  
+- [Controls](#controls)  
+- [Audio & Visual Enhancements](#audio--visual-enhancements)  
+- [Installation & Running](#installation--running)  
 
-## Overview
-In **Astro Cats**, you control a cat who travels through space and a newly discovered **Doughnut Farm**. Space is filled with surprises—while some objects boost your score or replenish your lives, others can bring your adventure to an end. Explore new mechanics like doughnut upgrades and the **dimensional portal**!
+## **Gameplay**  
+- **Roam Around**: Navigate the cat through vibrant space and farm environments.  
+- **Collect Objects**:  
+  - **Red Fish**: Grants **+1 point**.  
+  - **Egg Sprite**: Grants **+10 points** (if lives are full) or restores **1 life**.  
+  - **Doughnuts**: Found in the Doughnut Farm; used as **ammunition**.  
+- **Avoid Hazards**:  
+  - **Meteorites**: Contact results in losing a life.  
+  - **White Fish**: Contact results in losing a life.  
+- **Attack & Defense**:  
+  - **Doughnuts** can be launched to **attack aliens** or **reflect meteorites** into enemies.  
+  - **Aliens** spawn in space and can be **defeated using meteorites**, awarding bonus points.  
+- **Dimensional Travel**:  
+  - Players can **travel through a portal** between space and the Doughnut Farm.  
 
-## Gameplay
-### Roam Around  
-- Move through a **vibrant space environment** and **explore the Doughnut Farm**.
+## **Scoring & Lives**  
+- **Score System**:  
+  - **+1** per **red fish** collected.  
+  - **+10** per **egg sprite** (if lives are full).  
+  - **+15** for **defeating an alien** with a meteorite.  
+- **Lives**:  
+  - **Hitting hazards (meteorites, white fish)** reduces lives.  
+  - **Egg sprites** replenish lost lives if under max capacity.  
 
-### Collect & Upgrade Objects
-- **Red Fish**: Earn 1 point per red fish collected.  
-- **Egg-like Objects**: These rare items grant **10 points** and can **replenish your lives**.  
-- **Doughnuts**: Collected from the Doughnut Farm and used as **ammunition**.  
-  - **Upgrading Doughnuts** (Press `M`):  
-    - **Level 1**: Seedling (plain brown)  
-    - **Level 2**: Sprout (brown with chocolate glaze)  
-    - **Level 3**: Final product (pink with sprinkles, ready for collection & ammo)  
+## **Controls**  
+- **Movement**: Use keyboard/controller to move the cat.  
+- **Fire Doughnut Ammunition**: Press the assigned key to launch a doughnut.  
+- **Restart Game**: Press the restart button when all lives are lost.  
 
-### Avoid Hazards
-- **Meteorites**: Getting hit by a meteorite will cause you to lose a life.  
-- **White Fish**: Colliding with a white fish also reduces your life count.  
-- **Alien Enemy**: Found in space—use doughnuts to **attack** or **reflect meteorites into them** for extra damage.  
-
-### Dimensional Portal  
-- Travel between **space and the Doughnut Farm** to grow doughnuts and return to battle enemies.  
-
-### Restarting the Game  
-When your lives run out, press the restart button to reset the game. Your score will return to zero, and your lives will be restored for another adventure.
-
-## Scoring & Lives
-### Scoring:
-- **Red Fish**: +1 point  
-- **Egg-like Object**: +10 points  
-- **Doughnut Upgrade**: No points, but Level 3 doughnuts can be used as **ammo**.  
-
-### Lives:
-- **Hazards**: Hitting a meteorite, white fish, or getting attacked by an alien reduces your life count.  
-- **Egg-like Object**: Can replenish lost lives.  
-
+## **Audio & Visual Enhancements**  
+- **Audio Mixer Integration**:  
+  - **Music**: Background tracks for different scenes.  
+  - **Sound Effects**: Portal travel, meteorite collision, doughnut interactions, cat movement.  
+- **UI Enhancements**:  
+  - New **fonts** and an improved **game guide**.  
+- **New Animations**:  
+  - **Googly eyes** for the alien enemy.  
+  - **Doughnut upgrade effect** (fades in/out when leveling up).
+    
 ## Controls
 - **Movement**: Use your keyboard or controller to navigate the cat through space and the farm.  
 - **Upgrade Doughnuts**: Press `M` to evolve doughnuts to the next level.  
